@@ -1,0 +1,122 @@
+
+<center><h1> Sales Prediction</h1></center>
+<form action="/" method="POST">
+    <div class="form-group shadow-textarea" style="margin-top: 30px;text-align: center;color: black;">
+        <label for="Date" class="form-label"> Date:</label>
+        <input type="date" id="Date" name="Date">
+        <label for="Store" class="form-label"> Store No.:</label>
+        <select name="Store" id="Store">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+            <option value="47">47</option>
+            <option value="48">47</option>
+            <option value="49">49</option>
+            <option value="50">50</option>
+            <option value="51">51</option>
+            <option value="52">52</option>
+            <option value="53">53</option>
+            <option value="54">54</option>
+            
+          </select>
+          <label for="Item" class="form-label"> Item Type:</label>
+          <select name="Item" id="Item">
+            <option value="AUTOMOTIVE">AUTOMOTIVE</option>
+            <option value="BABY CARE">BABY CARE</option>
+            <option value="BEAUTY">BEAUTY</option>
+            <option value="BEVERAGES">BEVERAGES</option>
+            <option value="BOOKS">BOOKS</option>
+            <option value="BREAD/BAKERY">BREAD/BAKERY</option>
+            <option value="CELEBRATION">CELEBRATION</option>
+            <option value="CLEANING">CLEANING</option>
+            <option value="DAIRY">DAIRY</option>
+            <option value="DELI">DELI</option>
+            <option value="EGGS">EGGS</option>
+            <option value="FROZEN FOODS">FROZEN FOODS</option>
+            <option value="GROCERY I">GROCERY I</option>
+            <option value="GROCERY II">GROCERY II</option>
+            <option value="HARDWARE">HARDWARE</option>
+            <option value="HOME AND KITCHEN I">HOME AND KITCHEN I</option>
+            <option value="HOME AND KITCHEN II">HOME AND KITCHEN II</option>
+            <option value="HOME APPLIANCES">HOME APPLIANCES</option>
+            <option value="HOME CARE">HOME CARE</option>
+            <option value="LADIESWEAR">LADIESWEAR</option>
+            <option value="LAWN AND GARDEN">LAWN AND GARDEN</option>
+            <option value="LINGERIE">LINGERIE</option>
+            <option value="LIQUOR,WINE,BEER">LIQUOR,WINE,BEER</option>
+            <option value="MAGAZINES">MAGAZINES</option>
+            <option value="MEATS">MEATS</option>
+            <option value="PERSONAL CARE">PERSONAL CARE</option>
+            <option value="PET SUPPLIES">PET SUPPLIES</option>
+            <option value="PLAYERS AND ELECTRONICS">PLAYERS AND ELECTRONICS</option>
+            <option value="POULTRY">POULTRY</option>
+            <option value="PREPARED FOODS">PREPARED FOODS</option>
+            <option value="PRODUCE">PRODUCE</option>
+            <option value="SCHOOL AND OFFICE SUPPLIES">SCHOOL AND OFFICE SUPPLIES</option>
+            <option value="SEAFOOD">SEAFOOD</option>          
+            </select>
+        <br>
+    </div>
+    <div class="form-group" style="text-align: center;">
+      <button class="btn btn-primary btn-block movie-button" style="background-color: #e50914;text-align: center;border-color: #e50914;width:120px;" type="submit" >Submit</button><br><br>
+    </div>
+</form>
+    <br><br>
+    
+<div>
+    <table class="table" align="center" title="list">
+        <thead><tr>
+            <th>
+               Date:{{cdate}}    <br>Store No.:{{cstore}}    <br>  Item Type:{{citem}}      
+                
+            </th>
+            </tr>
+            <tr>
+            <th>
+                Prediction:{{prediction}}
+            </th>
+        </tr></thead>
+    </table>
+</div>
