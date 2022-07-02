@@ -1,7 +1,7 @@
 # ML_Sales-Prediction
 This is an end-to-end Machine Learning Project from Defining problem to building an app working on the ML model.
 
-In this project we have to predict the sales of various grocery items. Data is coming from Kaggle Ongoing Competition Dataset.(https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+In this project we have to predict the sales of various products. Data is coming from Kaggle Ongoing Competition Dataset.(https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
 
 After EDA, Data visualization, I deployed various Regression Models and then chose the best model based on RMSE. After that some parameters hypertuning for better results. Then I create an app that will be predicting the sales amount based on this model.
 
